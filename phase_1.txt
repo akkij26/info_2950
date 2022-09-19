@@ -1,0 +1,35 @@
+NFO2950 Phase
+Names/netids: Elida Met-Hoxha (em744), Camila Orr (ceo55), Akanksha Sarkar (as2637)
+
+Link to GitHub repository: 
+
+Dataset ideas:
+Note: We discovered a lot of sites that have datasets based on different topics that we think might be interesting to look into. The list below is split into topics and links to datasets that we found related to said topics. Topics are not listed in any particular order. 
+1.Economics, more specifically in relation to children and class mobility in the US:
+	⁃Poverty and outcomes: 
+	https://opportunityinsights.org/data/?geographic_level=0&topic=0&paper_id=1652#resource-listing 
+	https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/NKCQM1
+	⁃Children well-being indicators: https://datacenter.kidscount.org/data#USA/1/0/char/0
+	⁃perhaps also something on financial aid summary/stats?
+2.Oil and Renewable Resources (not interested in a specific thing so far, but in the theme of economics related topics, it would be interesting to look at energy needs as well as how finances are changed when transitioning from oil -> solar or rather fossil fuel based energies -> “clean” energies).
+	⁃https://www.iea.org/data-and-statistics/data-sets
+	⁃https://github.com/owid/energy-data
+	⁃https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy.html
+3.Physics/Earth and Atmosphere Sciences (here, we have not chosen specific datasets nor are we agreed on a specific topic. These platforms contain a lot of really large datasets, which we are planing on parsing through, though have not at this time. It would be interesting to see how certain environmental features might impact health/genetics, as in comparing a certain environmental feature and seeing how it varies throughout the globe and whether that impacts the prevalence of certain genes in a region -> this requires some looking into)
+	⁃NASA: https://data.nasa.gov/data_visualizations.html
+	⁃CERN: http://opendata.cern.ch
+4.Health (here, we were initially thinking more along the lines of maternal/natal health in the US, but we were also interested in other things as well ie any data on degenerative diseases)
+	⁃Global health: https://apps.who.int/gho/data/node.home
+	⁃Maternal Health: https://wonder.cdc.gov/natality-current.html
+	⁃CDC: https://data.cdc.gov/browse
+5.Social (here, we include almost everything else we looked into and thought might be interesting but does not fall into any one of these particular categories)
+	⁃FBI crime repository: https://crime-data-explorer.fr.cloud.gov/pages/home
+	⁃Fake data detention: https://github.com/KaiDMML/FakeNewsNet
+	⁃NYC taxi driver data: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+	⁃we did not find data on this, but we thought it could be interesting to find data on where ambulances are stationed throughout the day and whether there is a way to streamline that in such a way to limit city/state costs but also to have fast response times.
+	⁃US gov: https://data.gov
+	⁃Machine Learning repository: https://archive.ics.uci.edu/ml/datasets.php
+
+
+Questions for Reviewers:
+1.If we find other datasets that either match up with one of these brainstorming topics, or perhaps even datasets featuring a completely different subject, is that alright as long as it is done before the Phase 2 due date?
