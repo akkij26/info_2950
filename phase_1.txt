@@ -1,7 +1,7 @@
 NFO2950 Phase
 Names/netids: Elida Met-Hoxha (em744), Camila Orr (ceo55), Akanksha Sarkar (as2637)
 
-Link to GitHub repository: 
+Link to GitHub repository: https://github.com/akkij26/info_2950
 
 Dataset ideas:
 Note: We discovered a lot of sites that have datasets based on different topics that we think might be interesting to look into. 
