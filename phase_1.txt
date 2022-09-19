@@ -19,8 +19,8 @@ energies).
 	⁃https://github.com/owid/energy-data
 	⁃https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy.html
 3.Physics/Earth and Atmosphere Sciences (here, we have not chosen specific datasets nor are we agreed on a specific topic. These platforms contain 
-a lot of really large datasets, which we are planing on parsing through, though have not at this time. It would be interesting to see how certain environmental features might impact health/genetics, as in comparing a certain environmental feature and seeing how it varies throughout the globe
-and whether that impacts the prevalence of certain genes in a region -> this requires some looking into)
+a lot of large datasets, which we are planning on parsing through. It would be interesting to see how certain environmental features might impact health/genetics, as in comparing a certain environmental feature and seeing how it varies throughout the globe and whether that impacts the prevalence 
+of certain genes in a region - this requires some looking into)
 	⁃NASA: https://data.nasa.gov/data_visualizations.html
 	⁃CERN: http://opendata.cern.ch
 4.Health (here, we were initially thinking more along the lines of maternal/natal health in the US, but we were also interested in other things as
