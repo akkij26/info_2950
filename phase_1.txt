@@ -41,3 +41,4 @@ well ie any data on degenerative diseases)
 Questions for Reviewers:
 1.If we find other datasets that either match up with one of these brainstorming topics, or perhaps even datasets featuring a completely different 
 subject, is that alright as long as it is done before the Phase 2 due date?
+2.Which of these ideas do you think are most viable?
