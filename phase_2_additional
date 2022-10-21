@@ -1,1 +1,52 @@
+Phase 2 Notes
+For building context, 
+Websites:
+https://www.wsj.com/video/series/wsj-explains/why-small-towns-are-fighting-renewable-energy-development/23CE8012-ACE5-418A-BBB9-93528EE69120
 
+
+Ideas:
+might be intersting to have a plot showing the increase of wind generated power versus fossil fuel generated power in US over past 2 decades (IRENA datasets can be 
+used to do this).
+
+First, include a cheat sheet for all the files that have been added to this repository, at least for phase 2, and what information those files contain. 
+
+wtk_site_metadata.csv 
+This file is a bit difficult to parse, but basically there are given longitudes and latitudes with associated fraction_of_usable area, capacity, wind speed etc. 
+This file contains about 300,000 rows, but it also has data on offshore windmills/areas. This is the first thing I found, though I am not entirely sure it is usable. 
+Perhaps we could do a join with the other datasets...
+
+Reference_Access_Siting_Regime_ATB_Mid_Turbine_csv
+This file includes a bunch more information on generation, area in square meters (that I am guessing is usable area?), wind_speed at 120 meters, etc. This is
+only considering on-shore data. This could help in terms of visualizing some of those other factors we might be considering. 
+From the paper detailing reference access (https://www.sciencedirect.com/science/article/pii/S0360544221002930?via%3Dihub#bib46):
+"Reference Access is a regime that balances siting considerations and is informed by common practices to guide development. For example, a 25% slope restriction 
+is used to prevent erosion in addition to other physical restrictions that are assumed under the Open Access scenario. The Reference Access scenario also 
+applies 7 documented state and 271 county setback and height restrictions. For regions without setback requirements, we apply a typical county ordinance minimum 
+setback of 1.1x the maximum turbine tip height from infrastructure for safety reasons. We also assume buffered setbacks from radar stations (4 km and 9 km for 
+NEXRAD and SRR/LRR respectively)."
+Basically, this file only lists potential sites that meet certain requirements. They have narrowed the list for us already though... 
+
+Other notes on this dataset: 
+-generation is divided by the mean reported capacity factor to estimate capacity.
+-Although larger turbines result in lower capacity potential because of increased setback distances, they also can produce more electrical energy per unit of capacity
+(i.e., they have higher capacity factors).
+- The available capacity in each site can be reduced by excluded land area, and each site captures the unique techno-economic characteristics as driven by the wind
+resource and distance to transmission.
+-distance to transmission/distance to urban areas??
+- Those authors also used global GIS data to estimate the technical energy potential of wind resources with capacity factors above 20% (equivalent to a supply cost
+threshold of 12 US cents/kWh based on assumptions with medium values of parameters as used in this study) but neglected land suitability factors and the costs of 
+technology.
+
+More on this note of distance to urban areas: 
+https://www.sciencedirect.com/science/article/pii/S0301421515302366?via%3Dihub
+
+wind_potential_80m_110m_140m_35percent.xlsx
+This file contains wind capacity potential for different states. Thing I like about this file is it has alot more context and information about what it is describing.
+
+
+
+Second, here we list the important factors worth considering in onshore windmill placement in the US:
+The main inputs to the model include wind speed, elevation, slope, land cover, protected areas, and parameters related to wind turbine technology performance and cost.
+We can add some parameters perhaps to make our own considerations more robust... basically adding on to existing research...maybe we could even do a rank?
+1. wind speed 
+2. 
