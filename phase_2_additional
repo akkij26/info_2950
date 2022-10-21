@@ -43,6 +43,8 @@ https://www.sciencedirect.com/science/article/pii/S0301421515302366?via%3Dihub
 wind_potential_80m_110m_140m_35percent.xlsx
 This file contains wind capacity potential for different states. Thing I like about this file is it has alot more context and information about what it is describing.
 
+fossil-fuel-consumption-by-type.csv 
+features data on type of fossil fuels used and how much for each year for each country. 
 
 
 Second, here we list the important factors worth considering in onshore windmill placement in the US:
@@ -50,3 +52,10 @@ The main inputs to the model include wind speed, elevation, slope, land cover, p
 We can add some parameters perhaps to make our own considerations more robust... basically adding on to existing research...maybe we could even do a rank?
 1. wind speed 
 2. 
+
+
+
+Concerns: 
+-Are we just visualizing people's data and not really doing our own thing you know? To combat this, how could we possibly join different datasets? Need to ask minmo/TAs
+about how best to ensure we are doing enough cleaning/scraping...
+
