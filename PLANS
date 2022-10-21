@@ -1,0 +1,40 @@
+Plans for going ahead: 
+Phase 2: due 24 Oct
+What needs to be done by then: 
+
+ON JUPYTER NOTEBOOK:
+-Introduction: What is the context of the work? What research question are you
+trying to answer? What are your main findings? Include a brief summary of your
+results.
+-Data description: This should be inspired by the format presented in Gebru et al,
+2018. Answer any relevant questions from sections 3.1-3.5 of the Gebru et al
+article, especially the following questions:
+=> What are the observations (rows) and the attributes (columns)?
+=> Why was this dataset created?
+=> Who funded the creation of the dataset?
+=> What processes might have influenced what data was observed and
+recorded and what was not?
+=> What preprocessing was done, and how did the data come to be in the
+form that you are using?
+=> If people are involved, were they aware of the data collection and if so,
+what purpose did they expect the data to be used for?
+=> Where can your raw source data be found, if applicable? Provide a link to
+the raw data (hosted in a Cornell Google Drive or Cornell Box).
+-Acknowledgments 
+-Appendix: Data cleaning description: Submit an updated version of your data cleaning
+description from phase II that describes all data cleaning steps performed on your raw
+data to turn it into the analysis-read dataset submitted with your final project. The data
+cleaning description should be a separate Jupyter notebook with executed cells, and it
+should output the dataset you submit as part of your project (e.g. written as a .csv file).
+
+INDIVIDUALLY: 
+- need to decide what needs to be done and who will do what over the weekend so that we 
+can be finished by Monday. Also need to consider what will be done WEEKLY for rest of semester.
+
+
+
+Phase 3: due 2 Nov
+
+Phase 4: due 16 Nov
+
+Phase 5: due 5 Dec
