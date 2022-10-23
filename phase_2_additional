@@ -10,12 +10,12 @@ used to do this).
 
 First, include a cheat sheet for all the files that have been added to this repository, at least for phase 2, and what information those files contain. 
 
-wtk_site_metadata.csv 
+*wtk_site_metadata.csv 
 This file is a bit difficult to parse, but basically there are given longitudes and latitudes with associated fraction_of_usable area, capacity, wind speed etc. 
 This file contains about 300,000 rows, but it also has data on offshore windmills/areas. This is the first thing I found, though I am not entirely sure it is usable. 
 Perhaps we could do a join with the other datasets...
 
-Reference_Access_Siting_Regime_ATB_Mid_Turbine_csv
+*Reference_Access_Siting_Regime_ATB_Mid_Turbine_csv
 This file includes a bunch more information on generation, area in square meters (that I am guessing is usable area?), wind_speed at 120 meters, etc. This is
 only considering on-shore data. This could help in terms of visualizing some of those other factors we might be considering. 
 From the paper detailing reference access (https://www.sciencedirect.com/science/article/pii/S0360544221002930?via%3Dihub#bib46):
@@ -40,12 +40,14 @@ technology.
 More on this note of distance to urban areas: 
 https://www.sciencedirect.com/science/article/pii/S0301421515302366?via%3Dihub
 
-wind_potential_80m_110m_140m_35percent.xlsx
+*wind_potential_80m_110m_140m_35percent.xlsx
 This file contains wind capacity potential for different states. Thing I like about this file is it has alot more context and information about what it is describing.
 
-fossil-fuel-consumption-by-type.csv 
+*fossil-fuel-consumption-by-type.csv 
 features data on type of fossil fuels used and how much for each year for each country... found here: https://ourworldindata.org/fossil-fuels
 
+
+*
 
 Second, here we list the important factors worth considering in onshore windmill placement in the US:
 The main inputs to the model include wind speed, elevation, slope, land cover, protected areas, and parameters related to wind turbine technology performance and cost.
