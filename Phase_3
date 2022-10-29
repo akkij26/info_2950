@@ -13,3 +13,5 @@ Analysis 2:
 Our dataset ref_df contains values for different characteristics that go into determining windmill placement. We will rank certain values of each 
 characteristic given in our ref_df (ie create a dictionary similar to what we did in hw5 to assign different ranges of a characteristic to a numerical 
 value. Then we will run a multiple regression on these characteristics. 
+
+This is a test.
