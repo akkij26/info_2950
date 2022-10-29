@@ -1,0 +1,15 @@
+Phase 3: Preregistration of Analyses
+
+In Phase 3, we outline 2 different analyses that we will include in the final report, no matter the significance of said analyses. 
+
+Analysis 1: 
+We will fit a logistic regression model on the total renewable production/consumption given the input of time. We want to predict the next 30 years of 
+renewable energy production/consumption. We can do a test/train split on the data to see whether the model is working well or overfitting and then 
+evaluating metrics such as RMSE and MAE.  We will also make some bootstrapping samples (dependent on size of our cleaned dataset) and train our model 
+on each of said samples to learn more about the model and see what it tells us about our distributions. 
+
+
+Analysis 2: 
+Our dataset ref_df contains values for different characteristics that go into determining windmill placement. We will rank certain values of each 
+characteristic given in our ref_df (ie create a dictionary similar to what we did in hw5 to assign different ranges of a characteristic to a numerical 
+value. Then we will run a multiple regression on these characteristics. 
