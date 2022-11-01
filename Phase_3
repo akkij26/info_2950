@@ -11,7 +11,17 @@ on each of said samples to learn more about the model and see what it tells us a
 
 Analysis 2: 
 Our dataset ref_df contains values for different characteristics that go into determining windmill placement. We will rank certain values of each 
-characteristic given in our ref_df (ie create a dictionary similar to what we did in hw5 to assign different ranges of a characteristic to a numerical 
-value. Then we will run a multiple regression on these characteristics. 
+characteristic given in our ref_df. Then we will compare actuall windmill placements thusfar (with the assumption that the placement was made with 
+many of these characteristics in mind) to see whether some of our rankings match up with actual windmill placements in the physical world.
 
-This is a test.
+
+
+Questions: 
+1. Is it possible for us to add more datasets at this point? They are for testing purposes (ie, for analysis 2, we want to compare our ranked locations
+to actuall windmill locations to see how our ranking is working).
+2. Do you have any suggestions for us to check significance of our analysis 2?
+3. We have been working on analysis 2 already, and basically, we created a model that fits past data, and we wanted to use it to predict future data. The 
+only issue is that the parameters we may be finding, given past data, might not necessarily be the right ones. What we mean by this is that there are some
+educated predictions that we can make and that other researches have made which might increase/decrease some of thse parameters which fit our current curve. 
+I guess the question is, is it alright to change our model given what we believe might happen in the future? As such, our model is not relying only on the
+past measurements. 
