@@ -10,10 +10,9 @@ on each of said samples to learn more about the model and see what it tells us a
 
 
 Analysis 2: 
-Our dataset ref_df contains values for different characteristics that go into determining windmill placement. We will rank certain values of each 
-characteristic given in our ref_df. Then we will compare actuall windmill placements thusfar (with the assumption that the placement was made with 
-many of these characteristics in mind) to see whether some of our rankings match up with actual windmill placements in the physical world.
-
+Our dataset ref_df contains values for different characteristics that go into determining windmill placement. We will rank the locations based on parameters mentioned
+in phase 2. Then we will compare actual windmill placements thusfar (with the assumption that the placement was made with many of these characteristics in mind) to see
+whether some of our rankings match up with actual windmill placements in the physical world.
 
 
 Questions: 
